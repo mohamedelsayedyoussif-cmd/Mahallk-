@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Cairo:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+  --font-cairo: "Cairo", sans-serif;
+  --color-mahallk-dark: #003366;
+  --color-mahallk-light: #00AEEF;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-slate-900 bg-white;
+  }
+}
